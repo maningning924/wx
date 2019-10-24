@@ -1,0 +1,5 @@
+<!--pages/exam02/exam02.wxml-->
+<!-- 导航栏 -->
+<view>
+   <text>正弘城茶空间店></text>
+</view>

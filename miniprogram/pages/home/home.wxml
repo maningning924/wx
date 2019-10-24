@@ -1,0 +1,96 @@
+<!--pages/home/home.wxml-->
+<!-- 导航栏 -->
+<view>
+   <text class="title">正弘城茶空间店 ></text>
+   <van-search
+  value="{{ value }}"
+  placeholder="请输入搜索关键词"
+  show-action
+  bind:search="onSearch"
+  bind:cancel="onCancel"
+  />
+  <van-card
+  
+  price="25"
+  desc="含乳制品、麸 含大豆、坚果"
+  title="芒果瓜瓜酸奶杯"
+  thumb=" ../../../images/mmgg.png "
+  >
+  <view slot="tags">
+    <van-tag>下单后不用等待较好，直接出示给店员领取。浓郁丹麦式酸奶搭配鲜芒果...</van-tag>
+  
+  </view>
+  <view slot="footer">
+    <van-button size="mini"  class="gui">选规格</van-button>
+    
+  </view>
+</van-card>
+
+<van-card
+ 
+  price="29"
+  desc="含乳制品、茶 含桃子"
+  title="芝芝桃桃"
+  thumb=" ../../../images/zztt.png "
+  >
+  <view slot="tags">
+    <van-tag>670ml今夏回归，精选当季水蜜桃肉手工捣碎，单配甘醇金鱼茶底，清新桃气扑面而来。</van-tag>
+  
+  </view>
+  <view slot="footer">
+    <van-button size="mini"  class="gui">选规格</van-button>
+    
+  </view>
+</van-card>
+
+<van-card
+  tag="含酒精"
+  price="25"
+  desc="含茶、酒精"
+  title="醉醉葡萄啤"
+  thumb=" ../../../images/zuizui.png "
+  >
+  <view slot="tags">
+    <van-tag>480ml酒精饮品，未成年、孕妇、驾驶者不宜饮用。喜茶x科罗娜联名出品。</van-tag>
+  
+  </view>
+  <view slot="footer">
+    <van-button size="mini"  class="gui">选规格</van-button>
+    
+  </view>
+</van-card>
+
+<van-card
+  
+  price="25"
+  desc="含乳制品、不含茶"
+  title="热芋泥波波(鲜奶)"
+  thumb=" ../../../images/yunibb.png "
+  >
+  <view slot="tags">
+    <van-tag>500ml茶底可选鲜奶/椰奶。手捣新鲜芋泥融入顺滑鲜奶，再加入颗颗Q弹的芋泥波波，绵密与润泽...</van-tag>
+  
+  </view>
+  <view slot="footer">
+    <van-button size="mini"  class="gui">选规格</van-button>
+    
+  </view>
+</van-card>
+
+<van-card
+ 
+  price="25"
+  desc="含乳制品、含小麦、蛋"
+  title="流心奶黄波波冰"
+  thumb=" ../../../images/liuxin.png "
+  >
+  <view slot="tags">
+    <van-tag>480ml口感较甜腻，灵感来自经典流心奶黄月饼，醇香奶黄搭配秘制奶底，再撒入咸蛋黄饼干碎...</van-tag>
+  
+  </view>
+  <view slot="footer">
+    <van-button size="mini"  class="gui">选规格</van-button>
+    
+  </view>
+</van-card>
+</view>

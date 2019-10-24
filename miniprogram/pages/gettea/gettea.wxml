@@ -1,0 +1,27 @@
+<!--pages/gettea/gettea.wxml-->
+<!-- <text>pages/gettea/gettea.wxml</text> -->
+<view>
+  <view class="bj">
+      <van-notice-bar
+       left-icon="../../../images/laba.png"
+       text="您的奶茶，正在纯手工制作过程中喔，希望您能耐心等待的呢~"
+      />
+     <van-steps
+       steps="{{ steps }}"
+       active="{{ active }}"
+      />
+   </view>
+   <view>
+      <image class="shangdian_img" src="../../images/shangdian.png"></image>
+   </view> 
+   <view>  
+      <text class="wenzi_1"> 您今天还没有下单</text>
+   </view> 
+   <view>
+      <text class="wenzi_2">快去选择一杯喜欢的茶吧~</text>
+   </view> 
+   
+   <view class="diandan">
+     <van-button type="warning" >我要点单</van-button>
+   </view>
+</view>
